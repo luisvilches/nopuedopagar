@@ -1,0 +1,233 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    color:#2f3542;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav-link {
+    cursor: pointer;
+}
+
+.navbar{
+    padding: 20px;
+    background: #fff;
+}
+.navbar img{
+    max-width: 150px;
+    position: relative;
+    left: 20px;
+}
+
+.navbar li{
+    font-size: 18px;
+}
+.yellow{
+    color: #FAD000;
+}
+
+.boxshadow{
+    box-shadow: 0px 0px 3px #ccc;
+}
+header{
+    padding: 60px;
+    position: relative;
+    margin-top: 115px;
+    background-image: url("../img/bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+
+header .one h1,.one h5, .one p{
+    color: #fff;
+}
+
+header .fa-check{
+    color: #1abc9c;
+    margin-right: 10px;
+}
+
+header .form-container{
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+header p{
+    font-size: 20px;
+}
+
+
+.btn-yellow{
+    background: #FAD000;
+    border-color: #FAD000;
+    color: #2f3542;
+}
+
+header .one{
+    padding-top: 80px;
+}
+
+section{
+    padding: 100px;
+}
+
+.mb60{
+    margin-bottom: 60px;
+}
+
+.card {
+    min-height: 330px;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px #ccc;
+}
+
+.card i{
+    font-size: 80px;
+    color: #FAD000;
+}
+
+.card h4{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+section.bg{
+    padding: 60px;
+    position: relative;
+    background-image: url("../img/bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.bg h2{
+    color: #fff;
+}
+
+section.bg2{
+    padding: 60px;
+    position: relative;
+    background-image: url("../img/bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.bg2 h2{
+    color: #fff;
+}
+
+section.nocedas p{
+    font-size: 17px;
+    font-weight: 200;
+}
+
+section.testimonios h2{
+    margin-bottom: 60px;
+}
+
+section.testimonios .box-img {
+    max-height: 230px;
+    max-width: 230px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+footer{
+    background: #FAD000;
+    padding:20px;
+}
+
+#map {
+    height: 300px;
+    border-top: 1px solid #FAD000;
+    border-bottom: 1px solid #FAD000;
+}
+
+
+@media (max-width:768px){
+    section{
+        padding: 0px !important;
+    }
+
+    header{
+        padding: 10px !important;
+        margin-top:30px;
+    }
+
+    .form-container{
+        margin-top: 40px !important;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    h2{
+        font-size: 20px;
+        margin-top:20px;
+        margin-bottom: 20px;
+    }
+    .mb60 {
+        margin-bottom: 30px;
+    }
+
+    .card{
+        margin-bottom: 20px;
+    }
+
+    footer{
+        padding: 10px;
+    }
+
+    fotter h5{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+}
+
+.whatsappContact{
+    margin-top: 10px;
+}
+
+.whatsappContact .btn-whatsapp{
+    margin-top: 0px;
+    border-radius: 2px;
+    background: #128c7e;
+    border-color: #128c7e;
+    color: #fff;
+    padding: 10px 40px;
+    font-size: 20px;
+    box-shadow: 1px 5px 0px #075e54;
+}
+
+.whatsappContact .btn-whatsapp i{
+    font-size: 30px;
+    position: relative;
+    top: 3px;
+    margin-right: 10px;
+}
+
+.txtWhite{
+    color:#fff!important;
+    text-align: left!important;
+}
+
+.superponer hr{
+    border-color:rgba(200, 200, 200, .4);
+}
