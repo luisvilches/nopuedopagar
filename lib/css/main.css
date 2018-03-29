@@ -199,6 +199,14 @@ footer{
         font-size: 14px;
         margin-top: 5px;
     }
+
+    .navbar{
+        padding: 0px 10px;
+    }
+
+    .btn-whatsapp{
+        width: 100%!important;
+    }
 }
 
 .whatsappContact{
