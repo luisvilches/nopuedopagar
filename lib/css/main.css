@@ -239,3 +239,29 @@ footer{
 .superponer hr{
     border-color:rgba(200, 200, 200, .4);
 }
+
+.tmp{
+    padding: 60px 20px;
+    background: #f9f9f9;
+}
+
+.tmp h4{
+    color: #2f3542;
+    letter-spacing: 2px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ffb142;
+    border-color: #ffb142;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem #ffb142;
+}
+
+.alert{
+    color: #b33939;
+}

@@ -4,11 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Asesora de forma simple llevándote a la solución más viable para entender cómo debes enfrentar el asedio de cobranzas que derivan en demandas. Cuentas con asesores legales especializados en el área de deudas y sólo con suscribirte en nuestra web, obtendrás gratis una completa orientación que propondrá la mejor alternativa y para el caso de ser representado ante Tribunales, contarás con abogados especialistas y honorarios, que harán de este proceso una oportunidad real de defensa al menor costo.">
+    <meta name="keywords" content="cobranza,demanda,embargo,acoso,pago,deudas,servicio,preventivo,integral,tercereria,quiebra,persona,natural,juicio,alternativa,cobranza,abogado,especialista,defensas,deudores">
+    <meta name=”robots” content="Index, Follow">
+    <!-- Open Graph data -->
+    <meta name="twitter:card" value="Asesora de forma simple llevándote a la solución más viable para entender cómo debes enfrentar el asedio de cobranzas que derivan en demandas. Cuentas con asesores legales especializados en el área de deudas y sólo con suscribirte en nuestra web, obtendrás gratis una completa orientación que propondrá la mejor alternativa y para el caso de ser representado ante Tribunales, contarás con abogados especialistas y honorarios, que harán de este proceso una oportunidad real de defensa al menor costo.">
+    <meta property="og:title" content="NoPuedoPagar.cl" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.nopuedopagar.cl/" />
+    <meta property="og:image" content="http://www.nopuedopagar.cl/lib/img/logo.png" />
+    <meta property="og:description" content="Asesora de forma simple llevándote a la solución más viable para entender cómo debes enfrentar el asedio de cobranzas que derivan en demandas. Cuentas con asesores legales especializados en el área de deudas y sólo con suscribirte en nuestra web, obtendrás gratis una completa orientación que propondrá la mejor alternativa y para el caso de ser representado ante Tribunales, contarás con abogados especialistas y honorarios, que harán de este proceso una oportunidad real de defensa al menor costo." />
     <title>NoPuedoPagar.cl</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
     <link rel="stylesheet" href="lib/css/bootstrap.min.css">
     <link rel="stylesheet" href="lib/css/main.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/favicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/favicon.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicon.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-841150170"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-841150170');
+    </script>
+
+    <script>
+        function gtag_report_conversion(url) {
+            var callback = function () {
+                if (typeof(url) != 'undefined') {
+                window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-841150170/mZb5CNze-3MQ2t2LkQM',
+                'event_callback': callback
+            });
+            return false;
+        }
+    </script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top boxshadow">
@@ -51,31 +101,32 @@
                             <a href="https://api.whatsapp.com/send?phone=56997950129" target="_blank" class="btn-whatsapp btn btn-primary"><i class="fab fa-whatsapp"></i>Consúltanos</a>
                         </div>
                     </div>
-                    <div class="col-md-4 form-container">
+                    <div class="col-md-4 form-container" id="result">
                         <div class="form">
                             <h3>Conocenos</h3>
                             <h6>Consulta tu problema GRATIS ahora!</h6>
                             <hr>
-                            <form>
+                            <form id="formulario">
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Nombre</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
+                                    <input type="text" class="form-control" id="name" name="name" aria-describedby="emailHelp" placeholder="Nombre">
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword1">Correo electrónico</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Correo electrónico">
+                                    <input type="mail" class="form-control" id="mail" name="mail" placeholder="Correo electrónico">
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword1">Teléfono</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Teléfono">
+                                    <input type="text" class="form-control" id="asunto" name="asunto" placeholder="Teléfono">
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword1">Mensaje</label>
                                     <textarea name="msg" id="msg" cols="30" rows="3" class="form-control" placeholder="Mensaje"></textarea>
                                 </div>
                             
-                                <button type="submit" class="btn btn-primary form-control btn-yellow">Enviar Mesanje</button>
+                                <button type="button" onclick="send()" class="btn btn-primary form-control btn-yellow">Enviar Mesanje</button>
                             </form>
+                            <span id="alert" class="alert"></span>
                             <hr>
                             <h6 class="text-center">Privacidad 100% garantizada.</h6>
                         </div>
